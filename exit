@@ -1,0 +1,29 @@
+[33mcommit 01ecede0c04e241a0ca266bd2ea23ee65d30ee99[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Phong <thuanphong1910@email.com>
+Date:   Thu Feb 14 22:34:08 2019 -0600
+
+    create about page
+
+[33mcommit f3454bb9c193d299a56dcb13066573fd97b9b995[m
+Author: Phong <thuanphong1910@email.com>
+Date:   Thu Feb 14 22:28:36 2019 -0600
+
+    after adding database
+
+[33mcommit a210bf9c2d7aa4e313c3359b0b7f84646c140713[m
+Author: Phong <thuanphong1910@email.com>
+Date:   Thu Feb 14 22:26:56 2019 -0600
+
+    before adding database
+
+[33mcommit 7d516dbee745cb0da969063eafb5ae5ae895f117[m
+Author: Phong <thuanphong1910@email.com>
+Date:   Thu Feb 14 10:42:46 2019 -0600
+
+    models created
+
+[33mcommit bb929b904e7139e393e171bcc2e72760e319d93c[m
+Author: Phong <thuanphong1910@email.com>
+Date:   Thu Feb 14 10:24:10 2019 -0600
+
+    initialize

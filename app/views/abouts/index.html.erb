@@ -2,24 +2,13 @@
 
 <h1>Abouts</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<h2>Description</h2>
 
-  <tbody>
-    <% @abouts.each do |about| %>
-      <tr>
-        <td><%= link_to 'Show', about %></td>
-        <td><%= link_to 'Edit', edit_about_path(about) %></td>
-        <td><%= link_to 'Destroy', about, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<p>This is the Dota Blog that contains: Team,player, all heroes ,items and hero's abilities. Data was generated from Dota Gem API and Faker gem (for player ).</p>
+<p>Each Team could has many players, player could play many heroes, each hero has many abilities and items.
 
+<h2>ERD diagram</h2>
+<%= image_tag("Capture.JPG", :alt => "ERD") %>
 <br>
 
-<%= link_to 'New About', new_about_path %>
+
