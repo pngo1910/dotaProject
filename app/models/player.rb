@@ -1,3 +1,9 @@
+# frozen_string_literal: true
+
 class Player < ApplicationRecord
   belongs_to :team
+
+  has_many :heroes
+
+  validates :name, presence: true
 end
