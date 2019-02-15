@@ -22,7 +22,7 @@ teams.each do |team|
 end
 
 heroes.each do |hero|
-  player = Player.find(rand(1..heroes.count))
+  player = Player.find(rand(1..Player.count))
   new_hero = player.heroes.create(name: hero.name)
 end
 
